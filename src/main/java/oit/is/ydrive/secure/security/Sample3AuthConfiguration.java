@@ -1,4 +1,4 @@
-package main.java.oit.is.ydrive.secure.security;
+package oit.is.ydrive.secure.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
