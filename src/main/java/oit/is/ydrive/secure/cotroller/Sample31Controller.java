@@ -1,4 +1,4 @@
-package oit.is.ydrive.controller;
+package oit.is.ydrive.secure.controller;
 
 import java.security.Principal;
 
