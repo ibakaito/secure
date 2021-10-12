@@ -1,4 +1,4 @@
-package oit.is.ydrive.secure.controller;
+package oit.is.ydrive.secure.cotroller;
 
 import java.security.Principal;
 
@@ -21,6 +21,13 @@ public class Sample31Controller {
 
   @GetMapping("step1")
   public String sample31() {
+    return "sample31.html";
+  }
+
+  @GetMapping("step2")
+  public String sample32(ModelMap model, Principal prin) {
+    String loginUser = prin.getName(); // ログインユーザ情報
+    model.addAttribute("login_user", loginUser);
     return "sample31.html";
   }
 }
